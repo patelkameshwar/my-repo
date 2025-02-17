@@ -9,5 +9,6 @@ int main(){
     {
         printf("You are %d, can vote", age);
     }
-    
+    else
+    printf("You can not vote");
 }

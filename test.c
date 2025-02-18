@@ -7,8 +7,13 @@ int main(){
 
     if (age>=18)
     {
-        printf("You are %d, can vote", age);
+        printf("You are %d, can vote!", age);
+    }
+    else if (age>=15)
+    {
+        printf("You are %d, You have to wait!", age);
     }
     else
-    printf("You can not vote");
+        printf("Complete your Schooling First!");
+    
 }
